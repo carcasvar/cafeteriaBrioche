@@ -49,8 +49,12 @@ header .menu-button {
 
 main {
   color: #000000;
-  height: calc(100vh - 56px);
+  height: calc(100vh - 64px);
   padding: 2rem calc(100vw / 12 * 1);
+}
+
+.title{
+  text-align: center;
 }
 
 .button-container {
