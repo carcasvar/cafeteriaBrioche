@@ -143,3 +143,13 @@ a {
   top: 50%;
   transform: translateY(-50%);
 }
+
+form{
+  max-width: 250px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+form > * {
+  margin: 1rem auto;
+}
