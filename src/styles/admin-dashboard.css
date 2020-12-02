@@ -234,3 +234,37 @@ form.search-box::after {
   position: absolute;
   width: calc(100% - 1rem);
 }
+
+.date-picker{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.date-picker > * {
+  display: block;
+  margin: .5rem;
+}
+
+.report-viewer {
+  border: thin dashed rgba(0, 0, 0, 0.3);
+  height: 50vh;
+  margin: auto;
+  width: 600px;
+}
+
+.report-viewer .title{
+  margin: 1rem;
+}
+table{
+  margin: auto;
+}
+
+tr{
+  height: 32px;
+}
+
+tr > td{
+  padding-right: 1rem;
+}
